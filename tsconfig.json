@@ -19,6 +19,25 @@
       }
     ],
     "paths": {
+      "@/channeling/*": ["./components/layout/channeling/*"],
+      "@/icons/*": ["./public/assets/icons/*"],
+      "@/images/*": ["./public/assets/images/*"],
+      "@/shadcn/*": ["./components/shadcn/*"],
+      "@/components/*": ["./components/*"],
+
+      "@/actions/*": ["./helpers/actions/*"],
+      "@/schemas/*": ["./helpers/validation/*"],
+      "@/contexts/*": ["./helpers/contexts/*"],
+      "@/templates/*": ["./helpers/templates/*"],
+      "@/connectors/*": ["./helpers/connectors/*"],
+      "@/models/*": ["./helpers/models/*"],
+      "@/styles/*": ["./helpers/styles/*"],
+      "@/types/*": ["./helpers/types/*"],
+      "@/hooks/*": ["./helpers/hooks/*"],
+      "@/libs/*": ["./helpers/libs/*"],
+      "@/utils/*": ["./helpers/utils/*"],
+
+      "@/helpers/*": ["./helpers/*"],
       "@/*": ["./*"]
     }
   },
