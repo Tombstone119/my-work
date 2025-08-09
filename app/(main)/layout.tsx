@@ -15,9 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <main className="w-full bg-white">
-      <HeaderNav />
       {children}
-      <FooterNav />
     </main>
   );
 }
